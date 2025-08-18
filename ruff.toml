@@ -7,10 +7,10 @@ target-version = "py39"
 line-length = 88
 
 # Vilka regel-familjer som ska användas (E=pycodestyle, F=pyflakes)
-select = ["E", "F"]
+lint.select = ["E", "F"]
 
 # Regler att ignorera (E501 = för långa rader)
-ignore = ["E501"]
+lint.ignore = ["E501"]
 
 # Mappar som Ruff ska ignorera vid lintning
 exclude = ["venv", "build", "__pycache__"]

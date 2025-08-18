@@ -11,4 +11,4 @@ def random_number_generator():
         print("Access denied: invalid or missing secret phrase.")
 
 if __name__ == "__main__":
-    random_number_generator()
+    randomm_number_generator()
