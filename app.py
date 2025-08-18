@@ -2,7 +2,7 @@ import os
 import numpy as np
 from dotenv import load_dotenv
 
-load_dotenv ()
+load_dotenv()
 def random_number_generator():
     secret = os.getenv('SUPER_SECRET_PHRASE')
     if secret == '1up':
@@ -11,4 +11,4 @@ def random_number_generator():
         print("Access denied: invalid or missing secret phrase.")
 
 if __name__ == "__main__":
-    randomm_number_generator()
+    random_number_generator()
